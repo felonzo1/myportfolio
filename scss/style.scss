@@ -14,6 +14,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     line-height: 1.5;
+    
 }
 
 // HEADING
@@ -78,12 +79,12 @@ main{
 .about-info {
     display: grid;
     grid-gap: 30px;
-    grid-template-areas: 
+    grid-template-areas:
     'bioimage bio bio'
     'job1 job2 job3';
     grid-template-columns: repeat(3, 1fr);
 
-    
+
 
     .bio-info{
         grid-area: bioimage;
@@ -185,7 +186,7 @@ main{
     &:hover{
         background: $secondary-color;
         color: set-text-color($secondary-color);
-        
+
     }
 }
 
@@ -211,5 +212,3 @@ main{
 }
 
 @import 'mobile';
-
-

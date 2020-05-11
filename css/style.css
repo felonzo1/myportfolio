@@ -3,4 +3,4 @@
  'bio'
  'job1'
  'job2'
- 'job3';-ms-grid-columns:1fr;grid-template-columns:1fr}.about-info .bio p{font-size:1rem}.projects{-ms-grid-columns:(1fr);grid-template-columns:repeat(2, 1fr)}}@media screen and (max-width: 500px){main#home h1{margin-top:10vh;font-size:40px}.projects{-ms-grid-columns:1fr;grid-template-columns:1fr}}
+ 'job3';-ms-grid-columns:1fr; grid-template-columns:1fr}.about-info .bio p{font-size:1rem}.projects{-ms-grid-columns:(1fr);grid-template-columns:repeat(2, 1fr)}}@media screen and (max-width: 500px){main#home h1{margin-top:10vh;font-size:40px}.projects{-ms-grid-columns:1fr;grid-template-columns:1fr}}
